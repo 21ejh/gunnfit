@@ -4,17 +4,14 @@ $(document).ready(function(){
 		var scroll = $(window).scrollTop();
 
 		$(this).toggleClass('xtoggleOpen');
-
-    	if (scroll < 100) {
-        	$('.navbar').toggleClass('navbarActivated');
-    	}
+        $('.navbar').toggleClass('navbarActivated');
 
 	});
 
 	$(window).scroll(function() {    
     	var scroll = $(window).scrollTop();
 
-    	if (scroll >= 100) {
+    	if (scroll >= 250) {
         	$('.navbar').addClass('navbarOpen');
     	} else {
         	$('.navbar').removeClass('navbarOpen');

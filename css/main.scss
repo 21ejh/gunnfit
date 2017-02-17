@@ -54,7 +54,7 @@ body {
 		text-align:center;
 		margin:0 auto;
 		overflow:hidden;
-		height:70px;
+		height:65px;
 	}
 
 	.navbar-brand {
@@ -314,7 +314,7 @@ body {
   position: absolute;
   left: -180px;
   top: -35px;
-  margin-top:-100px;
+  margin-top:-105px;
   width:450px;
   height:210px;
 }
@@ -509,6 +509,7 @@ body {
 		}
 
 		.iconSection {
+
 			p {
 				font-size:0.8em;
 				padding-left:5px;
@@ -536,8 +537,9 @@ body {
 
 	&:after {
 		content:"";
+		z-index:-1;
 		position:absolute;
-		bottom:-25px;
+		bottom:-24px;
 		left:0;
 		right:0;
 		margin:0 auto;
